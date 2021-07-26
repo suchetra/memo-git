@@ -68,3 +68,14 @@ r pour récursif, f pour forcé
 * afficher la liste des url remote
   * git remote
   * git remote -v, pour afficher plus en détail
+ 
+* pour supprimer le lien entre le remote et le local
+  * git remote remove origin
+
+* pour recréer un lien entre le remote et le local
+  * git remote add origin <url https sur github>
+ 
+* View Contents of Multiple Files in terminal
+  * cat test test1
+https://www.tecmint.com/13-basic-cat-command-examples-in-linux/
+
