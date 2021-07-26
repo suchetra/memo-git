@@ -52,6 +52,7 @@ cf https://stackoverflow.com/questions/23740734/logout-and-login-as-another-user
 * Vous pouvez vérifier ce que vous avez configuré dans Git en tapant: :
   * git config --global user.username
 
+ ___
  
 Autres lignes de commande Julien 
 * pour afficher le chemin d'un dossier/fichier
@@ -78,4 +79,7 @@ r pour récursif, f pour forcé
 * View Contents of Multiple Files in terminal
   * cat test test1
 https://www.tecmint.com/13-basic-cat-command-examples-in-linux/
+  * cat cookie.md
 
+ * pour renommer une branche
+   * git branch -M <nouveau nom de branche>
