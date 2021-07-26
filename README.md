@@ -51,3 +51,20 @@ cf https://stackoverflow.com/questions/23740734/logout-and-login-as-another-user
   * git config --global user.username <USerNamE>
 * Vous pouvez vérifier ce que vous avez configuré dans Git en tapant: :
   * git config --global user.username
+
+ 
+Autres lignes de commande Julien 
+* pour afficher le chemin d'un dossier/fichier
+  * pwd
+* ls -al
+raccourci de :
+  * ls -l
+  * ls -a (pour voir les fichiers cachés)
+* pour effacer le fichier .git (rm pour remove)
+  * rm .git pour effacer le fichier .git 
+  * rm -rf .git
+r pour récursif, f pour forcé
+
+* afficher la liste des url remote
+  * git remote
+  * git remote -v, pour afficher plus en détail
