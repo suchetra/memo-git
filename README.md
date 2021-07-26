@@ -82,4 +82,4 @@ https://www.tecmint.com/13-basic-cat-command-examples-in-linux/
   * cat cookie.md
 
  * pour renommer une branche
-   * git branch -M "<nouveau nom de branche>"
+   * git branch -M <<nouveau nom de branche>>
