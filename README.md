@@ -13,8 +13,8 @@ cf https://stackoverflow.com/questions/23740734/logout-and-login-as-another-user
 
 
 étape 1 
-- pouvez vérifier que Git existe vraiment en tapant:
-git --version
+* pouvez vérifier que Git existe vraiment en tapant:
+  * git --version
 - Définissez votre nom:
 git config --global user.name "Your Name"
 - Maintenant configurez votre courrier électronique:
