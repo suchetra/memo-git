@@ -9,4 +9,5 @@ cf https://stackoverflow.com/questions/56573522/how-can-i-login-to-git/56573696
 rundll32.exe keymgr.dll, KRShowKeyMgr
 cf https://stackoverflow.com/questions/23740734/logout-and-login-as-another-user-git-bash
 
+- la piste non aboutie : https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
