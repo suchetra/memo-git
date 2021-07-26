@@ -23,9 +23,9 @@ cf https://stackoverflow.com/questions/23740734/logout-and-login-as-another-user
 
 étape 2
 * Créer un nouveau dossier (aka make directory)
-  * mkdir <FOLDERNAME>
+  * mkdir <<FOLDERNAME>>
 * Naviguer dans un dossier existant (aka change directory)
-  * cd <FOLDERNAME>
+  * cd <<FOLDERNAME>>
 * Lister les éléments dans un dossier
   * ls
 * Activez Git pour un repertoire
@@ -39,7 +39,7 @@ cf https://stackoverflow.com/questions/23740734/logout-and-login-as-another-user
 * Afficher les modifications apportés aux fichiers
   * git diff
 * Ajouter les modifications d'un fichier à soumettre
-  * git add <FILENAME>
+  * git add <<FILENAME>>
 * Pour ajouter toutes les modifications d'un seul coup
   * git add .
 * Pour soumettre les modifications que vous avez ajoutées avec un court message décrivant les modifications
@@ -48,7 +48,7 @@ cf https://stackoverflow.com/questions/23740734/logout-and-login-as-another-user
   
 étape 4 
 * Ajoutez votre nom d'utilisateur GitHub à votre configuration Git:
-  * git config --global user.username <USerNamE>
+  * git config --global user.username <<USerNamE>>
 * Vous pouvez vérifier ce que vous avez configuré dans Git en tapant: :
   * git config --global user.username
 
