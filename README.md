@@ -52,6 +52,9 @@ cf https://stackoverflow.com/questions/23740734/logout-and-login-as-another-user
 * Vous pouvez vérifier ce que vous avez configuré dans Git en tapant: :
   * git config --global user.username
 
+étape 5 
+ * git push
+ * git pull
  ___
  
 Autres lignes de commande Julien 
@@ -83,3 +86,13 @@ https://www.tecmint.com/13-basic-cat-command-examples-in-linux/
 
  * pour renommer une branche
    * git branch -M <<nouveau nom de branche>>
+
+ ---
+ 
+ * créer branche
+   * git branch <<autreBranch>>
+ * pour aller sur un autre commit ou une autre branche  
+   * git checkout <<>>
+ * créer branche et aller dessus
+   * git checkout -b <<autreBranch>>
+ 
