@@ -53,8 +53,19 @@ cf https://stackoverflow.com/questions/23740734/logout-and-login-as-another-user
   * git config --global user.username
 
 étape 5 
- * git push
- * git pull
+  * git push
+  * git pull
+* pour merger (en se placant sur la branche main et pour ramener les changements de test2 vers main)
+  * git merge test2
+ 
+ étape ignorer
+* éviter que les vidéos et autres gros fichiers soit compter sur GitHub :
+  1. mettre à la racine du repo **.gitignore** (pas .gitignore.txt qui ne marche pas) 
+  2. mettre les documents concerné dans le document .gitignore 
+    * .mp4
+    * video.mp4
+    * dossier/ (écrire / pour signifier le dossier)
+ 
  ___
  
 Autres lignes de commande Julien 
@@ -88,11 +99,17 @@ https://www.tecmint.com/13-basic-cat-command-examples-in-linux/
    * git branch -M <<nouveau nom de branche>>
 
  ---
- 
- * créer branche
+ * supprimer branche 
+   * git branch -d <<autreBranch>>
+ * créer branche (sans aller dessus)
    * git branch <<autreBranch>>
- * pour aller sur un autre commit ou une autre branche  
+ * pour aller sur un commit particulier ou une autre branche  
    * git checkout <<>>
  * créer branche et aller dessus
    * git checkout -b <<autreBranch>>
+ * changer de branche (checkout aussi mais switch est plus clair et évite la confusion)
+   * git switch <<autreBranch>>
  
+ * voir les log avec les barres verticales et les étoiles
+   * **git log --oneline --decorate --graph**
+
