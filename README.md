@@ -1,5 +1,8 @@
 # memo-git
 
+Les différences entre Git et GitHub :
+Git est un programme de lignes de commandes pour gérer les versions (branches) d'un projet. GitHub est le site web où l'on peut partager son projet avec d'autres personnes et travailler avec eux (pull de leurs commits, et on push les notres) en gardant une même branche principale : la branche origin du repo à distance ; et en faisant des modifications sur des branches annexes qui viendront alimenter la branche origin en respectant les "to do" : les issues.
+
 Pour changer le mot de passe et changer de compte ou "logout from Git bash and login it again as another user"
 Recherches Google "log in in git" "log out git" et ainsi il y a deux manière :
 - via le Credentials Manager
