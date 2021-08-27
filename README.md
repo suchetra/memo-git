@@ -1,5 +1,15 @@
 # memo-git https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf
 
+What does mean remote github?
+Git Remote = Git repository that’s hosted on the Internet or another network
+https://www.gitkraken.com/learn/git/tutorials/what-is-git-remote
+
+What does mean origin github?
+"origin" is just what you nicknamed your remote repository when you ran a command like this:
+
+git remote add origin git@github.com:USERNAME/REPOSITORY-NAME.git
+https://stackoverflow.com/questions/9529497/what-is-origin-in-git
+
 Les différences entre Git et GitHub :
 Git est un programme de lignes de commandes pour gérer les versions (branches) d'un projet. GitHub est le site web où l'on peut partager son projet avec d'autres personnes et travailler avec eux (pull de leurs commits, et on push les notres) en gardant une même branche principale : la branche origin du repo à distance ; et en faisant des modifications sur des branches annexes qui viendront alimenter la branche origin en respectant les "to do" : les issues.
 ___
