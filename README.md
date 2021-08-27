@@ -10,6 +10,8 @@ What does mean origin github?
 git remote add origin git@github.com:USERNAME/REPOSITORY-NAME.git
 https://stackoverflow.com/questions/9529497/what-is-origin-in-git
 
+Origin fait partie des remote repository en quelque sorte et il n'y a pas de "surnom" pour le repository local
+
 Les différences entre Git et GitHub :
 Git est un programme de lignes de commandes pour gérer les versions (branches) d'un projet. GitHub est le site web où l'on peut partager son projet avec d'autres personnes et travailler avec eux (pull de leurs commits, et on push les notres) en gardant une même branche principale : la branche origin du repo à distance ; et en faisant des modifications sur des branches annexes qui viendront alimenter la branche origin en respectant les "to do" : les issues.
 ___
