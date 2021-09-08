@@ -39,6 +39,8 @@ cf https://stackoverflow.com/questions/23740734/logout-and-login-as-another-user
 étape 2
 * Créer un nouveau dossier (aka make directory)
   * mkdir <<FOLDERNAME>>
+* Créer un nouveau fichier
+  * touch <<FILENAME>>
 * Naviguer dans un dossier existant (aka change directory)
   * cd <<FOLDERNAME>>
 * Lister les éléments dans un dossier
