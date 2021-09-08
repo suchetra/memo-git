@@ -128,3 +128,8 @@ https://www.tecmint.com/13-basic-cat-command-examples-in-linux/
  * voir les log avec les barres verticales et les étoiles
    * **git log --oneline --decorate --graph**
 
+------------------------------------------------------
+
+Julien
+ 
+ git diff pour voir les anciennes modifications entre deux commit
