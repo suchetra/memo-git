@@ -141,3 +141,4 @@ Julien
    * git stash (puis les changements disparaissent c'est normal, puis on change de branche)
  * je reviens sur la branche brouillon et je unstash
    * git stash pop
+   * autre manière git commit -a -m ""
