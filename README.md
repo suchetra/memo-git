@@ -135,3 +135,9 @@ https://www.tecmint.com/13-basic-cat-command-examples-in-linux/
 Julien
  
  git diff pour voir les anciennes modifications entre deux commit
+ * pour effacer les changements qu'on a fait dans la branche et revenir à la base
+   * git reset --hard HEAD
+ * j'ai fait des changements, je garde en brouillon et je change de branche pour aller voir des choses ailleurs et laisser tel quel
+   * git stash (puis les changements disparaissent c'est normal, puis on change de branche)
+ * je reviens sur la branche brouillon et je unstash
+   * git stash pop
