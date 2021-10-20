@@ -142,3 +142,10 @@ Julien
  * je reviens sur la branche brouillon et je unstash
    * git stash pop
    * autre manière git commit -a -m ""
+ 
+------------------------------------------------------
+ 
+message erreur : LF will be replaced by CRLF
+  * git config --global core.autocrlf false
+https://qastack.fr/programming/17628305/windows-git-warning-lf-will-be-replaced-by-crlf-is-that-warning-tail-backwar
+
