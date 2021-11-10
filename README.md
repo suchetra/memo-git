@@ -149,3 +149,13 @@ message erreur : LF will be replaced by CRLF
   * git config --global core.autocrlf false
 https://qastack.fr/programming/17628305/windows-git-warning-lf-will-be-replaced-by-crlf-is-that-warning-tail-backwar
 
+------------------------------------------------------
+ Connexion SSH pour git clone
+ 
+ copier 
+     la clé C:\Users\Nicolas\.ssh/id_rsa.pub (ouvrir avec Notepad++)
+ et coller dans :
+ 
+ profil -> settings -> SSH and GPG keys -> new SSH key -> Key
+ 
+ git clone <lien SSH git@github.com:...>
