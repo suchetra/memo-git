@@ -159,3 +159,6 @@ https://qastack.fr/programming/17628305/windows-git-warning-lf-will-be-replaced-
  profil -> settings -> SSH and GPG keys -> new SSH key -> Key
  
  git clone <lien SSH git@github.com:...>
+ 
+ git@github.com: Permission denied (publickey).
+ https://gist.github.com/adamjohnson/5682757
