@@ -83,6 +83,7 @@ cf https://stackoverflow.com/questions/23740734/logout-and-login-as-another-user
     * video.mp4
     * dossier/ (écrire / pour signifier le dossier)
  
+ rajouter le node_modules dans .gitignore si oublie https://gist.github.com/nuggetnchill/ca2768b1ea956d7374384c4d67e33b6e
  ___
  
 Autres lignes de commande Julien 
