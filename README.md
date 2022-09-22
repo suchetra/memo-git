@@ -163,3 +163,20 @@ https://qastack.fr/programming/17628305/windows-git-warning-lf-will-be-replaced-
  
  git@github.com: Permission denied (publickey).
  https://gist.github.com/adamjohnson/5682757
+ 
+ ------------------------------------------------------
+ * ouvrir le projet dans VSCode
+   * code <<FOLDERNAME>>
+ 
+ * fusion de commits
+   * faire un changement
+   * Git add .
+   * Git commit -m "un commentaire"
+   * Git rebase -i HEAD~n (n le nombre total des commits à fusionner)
+     * pick le commit qu'on garde
+     * squash les commits non gardé
+	
+ * push des commits sur une branche main en gardant les commits des autres intacts
+   * git push --force-with-lease origin <<NOM DE MA BRANCHE LOCALE>>
+
+ 
