@@ -173,9 +173,11 @@ https://qastack.fr/programming/17628305/windows-git-warning-lf-will-be-replaced-
    * Git add .
    * Git commit -m "un commentaire"
    * Git rebase -i HEAD~n (n le nombre total des commits à fusionner)
-     * pick le commit qu'on garde
+     * pick le commit qu'on garde (en général le premier qui est le plus vieux)
      * squash les commits non gardé
-	
+   * quand le rebase est bon, prendre en compte les modifications sur repo GitHub 
+     *  git push --force
+
  * push des commits sur une branche main en gardant les commits des autres intacts
    * git push --force-with-lease origin <<NOM DE MA BRANCHE LOCALE>>
 
