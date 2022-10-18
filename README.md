@@ -179,4 +179,5 @@ https://qastack.fr/programming/17628305/windows-git-warning-lf-will-be-replaced-
  * push des commits sur une branche main en gardant les commits des autres intacts
    * git push --force-with-lease origin <<NOM DE MA BRANCHE LOCALE>>
 
- 
+ * changer le nom d'une branche
+   * git branch -m new-branch-name
