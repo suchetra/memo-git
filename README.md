@@ -176,7 +176,9 @@ https://qastack.fr/programming/17628305/windows-git-warning-lf-will-be-replaced-
      * pick le commit qu'on garde (en général le premier qui est le plus vieux)
      * squash les commits non gardé
    * quand le rebase est bon, prendre en compte les modifications sur repo GitHub 
-     *  git push --force
+     *  git push --force </br>
+     préférer utiliser la commande suivante (car plus sûre) (push des commits sur une branche main en gardant les commits des autres intacts) </br>
+     * git push --force-with-lease origin <<NOM DE MA BRANCHE LOCALE>>
 
  * push des commits sur une branche main en gardant les commits des autres intacts
    * git push --force-with-lease origin <<NOM DE MA BRANCHE LOCALE>>
