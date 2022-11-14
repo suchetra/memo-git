@@ -185,3 +185,27 @@ https://qastack.fr/programming/17628305/windows-git-warning-lf-will-be-replaced-
 
  * changer le nom d'une branche
    * git branch -m new-branch-name
+   
+   ------------------------------------------------------
+   si la branche dev est incorrecte en local : trop de git merge : "Merge branch 'dev' of https://github.com/repo_name into dev" et impossibilité de git rebase HEAD ~3 tranquillement sur une autre branche ? on recrée la branche dev
+   il suffit de se mettre sur dev et voir avec :
+   git log --oneline
+   
+   git switch testnico
+   git branch -D dev (supprimer dev)
+   git checkout dev (créer dev)
+   
+   voilà la branche dev est propre
+   
+   ------------------------------------------------------
+ * Changing git commit message
+If it is the most recent commit, you can simply do this:
+
+   * git commit --amend
+This brings up the editor with the last commit message and lets you edit the message. (You can use -m if you want to wipe out the old message and use a new one.)
+
+ * Pushing
+And then when you push, do this:
+
+   * git push --force-with-lease <repository> <branch> ; <repository> usually is origin
+   
