@@ -210,7 +210,7 @@ And then when you push, do this:
    * git push --force-with-lease <repository> <branch> ; <repository> usually is origin
    
    ------------------------------------------------------
-Renaming local and remote
+Renaming local and remote branch https://stackoverflow.com/questions/30590083/how-do-i-rename-both-a-git-local-and-remote-branch-name
  * Rename the local branch to the new name </br>
    * git branch -m <old_name> <new_name>
 
