@@ -209,3 +209,23 @@ And then when you push, do this:
 
    * git push --force-with-lease <repository> <branch> ; <repository> usually is origin
    
+   ------------------------------------------------------
+Renaming local and remote
+ * Rename the local branch to the new name </br>
+   * git branch -m <old_name> <new_name>
+
+ * Delete the old branch on remote - where <remote> is, for example, origin </br>
+   * git push <remote> --delete <old_name>
+
+ * Or shorter way to delete remote branch [:] </br>
+   * git push <remote> :<old_name>
+
+ * Prevent git from using the old name when pushing in the next step. </br>
+ * Otherwise, git will use the old upstream name instead of <new_name>. </br>
+   * git branch --unset-upstream <new_name>
+
+ * Push the new branch to remote </br>
+   * git push <remote> <new_name>
+
+ * Reset the upstream branch for the new_name local branch </br>
+   * git push <remote> -u <new_name>
