@@ -180,7 +180,7 @@ https://qastack.fr/programming/17628305/windows-git-warning-lf-will-be-replaced-
      préférer utiliser la commande suivante (car plus sûre) (push des commits sur une branche main en gardant les commits des autres intacts) </br>
      * git push --force-with-lease origin <<NOM DE MA BRANCHE LOCALE>>
 
- Avec VIM pour revenir en ligne de commande : ctrl + c (touche echap marche pas), ensuite :w pour enregistrer 
+ Avec VIM pour revenir en ligne de commande : ctrl + c (touche echap marche pas), ensuite :w pour enregistrer. Et aussi "Press the letter i on your keyboard to enter INSERT mode in vim." 
  
  * push des commits sur une branche main en gardant les commits des autres intacts
    * git push --force-with-lease origin <<NOM DE MA BRANCHE LOCALE>>
