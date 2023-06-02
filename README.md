@@ -1,5 +1,7 @@
 # memo-git https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf
 
+git rebase -i HEAD~2
+
 What does mean remote github?
 Git Remote = Git repository that’s hosted on the Internet or another network
 https://www.gitkraken.com/learn/git/tutorials/what-is-git-remote
