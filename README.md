@@ -233,3 +233,11 @@ Renaming local and remote branch https://stackoverflow.com/questions/30590083/ho
 
  * Reset the upstream branch for the new_name local branch </br>
    * git push <remote> -u <new_name>
+
+  ------------------------------------------------------
+Si un fichier ou dossier est push sur le repo distant et qu'on veut finalement pas le suivre (comme un fichier qui a été mis trop tard dans .gitignore)
+ * la commande
+   * git rm -r --cached <file_name or folder_name> exemple : git rm -r --cached .idea
+ * pour vérifier avant et après (avant on le trouve et après c'est censé être vide)
+   * git ls-files | grep '\.idea' 
+ 
